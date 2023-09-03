@@ -1,0 +1,293 @@
+.bg-container{
+    background: #FFFFFF;
+    height: 100vh;
+}
+
+.navbar{
+    padding: 0px 7.5px 2px 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-left-items{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-right-items{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+    align-items: right;
+}
+
+.courses-button{
+    padding: 16px 32px 16px 32px;
+    border-radius: 30px;
+    gap: 16px;
+    border-style: solid;
+    width: 120px;
+    border-width: 0px;
+    background: #F27A44;
+    color: white;
+}
+
+.troopical-destinations{
+    background: #F8F1D340;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.troopical-left-items{
+    padding-left: 60px;
+    padding-top: 60px;
+    width: 50%;
+}
+
+.troopical-right-items{
+    width: 50%;
+    background-color: lightgreen;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.troopie-image{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.troopical-svg{
+    height: 30px;
+    width: 30px;
+}
+
+.troopie-discover{
+    font-size: 12px;
+    margin-bottom: -40px;
+}
+
+.troopie-destinations{
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.button-troope{
+    border-radius: 30px;
+    background: #F27A44;
+    padding: 15px;
+    border-style: solid;
+    width: 120px;
+    border-width: 0px;
+    color: white;
+}
+
+.card-item-jenny{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.jenny-wison-card-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 20px;
+}
+
+.second-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-explore-menu{
+    border-radius: 30px;
+    background: #F27A44;
+    padding: 15px;
+    border-style: solid;
+    width: 120px;
+    border-width: 0px;
+    color: white;
+}
+
+.right-card-item-of-jemmy-and-troopie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-around;
+    padding-left: 60px;
+}
+
+.jenny-name{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: -15px;
+}
+
+.jenny-para{
+    font-size: 12px;
+}
+
+.our-destinations{
+    padding-left: 60px;
+}
+
+.university-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.university-images{
+    height: 120px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.image-name{
+    font-size: 18px;
+    font-weight: 700px;
+}
+.image-details{
+    font-size: 12px;
+
+}
+
+.university-cards-container{
+    padding-left: 20px;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-number{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-top: 20px;
+}
+
+.form-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#city{
+    width: 100%;
+    border-radius: 6px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #F3F3F3;
+}
+
+#arrival{
+    border-radius: 6px;
+    width: 110px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #F3F3F3;
+}
+
+#departure{
+    border-radius: 6px;
+    width: 110px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #F3F3F3;
+}
+
+.form-container-right{
+    padding: 60px;
+    width: 30%;
+    margin-right: 200px;
+}
+
+.arrival-departure{
+    padding: 10px;
+}
+
+.book-now-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.testonials-container-three-avatars{
+    display: flex;
+    margin-left: 50px;
+}
+
+.testonials-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.images-testonials{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.image-avatars-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.students-special{
+    text-align: center;
+}
+
+.nav-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
